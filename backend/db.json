@@ -1,0 +1,22 @@
+{
+  "employees": [
+    {
+      "id": "1",
+      "employee": "Saltanat Rakhim",
+      "organization": "ИП Алматы",
+      "object": "кафе",
+      "projects": ["POS-инфраструктура"],
+      "position": "Barista/Cashier",
+      "hireDate": "2023-05-09"
+    },
+    {
+      "id": "2",
+      "employee": "Saken Mussin",
+      "organization": "ИП Алматы",
+      "object": "кафе",
+      "projects": ["Реконструкция бассейна", "IT-автоматизация", "ещё"],
+      "position": "QA Engineer",
+      "hireDate": "2024-12-08"
+    }
+  ]
+}
