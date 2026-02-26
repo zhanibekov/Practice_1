@@ -5,6 +5,7 @@ const path = require("path");
 
 const swaggerUi = require("swagger-ui-express");
 const swaggerJsdoc = require("swagger-jsdoc");
+const { error } = require("console");
 
 const app = express();
 app.use(cors());
@@ -74,7 +75,30 @@ app.get("/api/employees", async (req, res) => {
   }
 });
 
+
+// async function Employees() {
+//     try {
+//         const response = await fetch("http://localhost:3000/api/employees");
+//         const employees = await response.json();
+
+//         const firstEmployee = employees[0];
+
+//         const li = document.getElementById("employess");
+
+//         li.textContent = firstEmployee.employee;
+
+//     }catch (error) {
+//         console.error(error);
+//     }
+// document.getElementById("list",Employees)
+// }
+
+
+
+
+
 app.listen(PORT, () => {
   console.log(`API: http://localhost:${PORT}`);
   console.log(`Swagger: http://localhost:${PORT}/api-docs`);
 });
+

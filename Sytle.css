@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.block {
+    display: flex;
+}
+
+
+.menu {
+    width: 350px;
+    height: 939px;
+    background-color: rgb(0, 48, 85);
+    padding: 20px;
+}
+
+.menu *{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu h6{
+    font-weight: 100;
+}
+
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background: #f5f6f8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.box {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    border-bottom: 2px solid rgb(209, 209, 209);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 20px;
+    gap: 20px;
+}
+
+
+.box img {
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+}
+
+.watch {
+    width: 250px;
+    height: 40px;
+    border: 2px solid rgb(209, 209, 209);
+    border-radius: 10px 10px 10px 10px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.toolbar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: #ffffff;
+    padding: 16px 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.list{
+    height: 200px;
+    width: 80%;
+    padding: 20px;
+    line-height: 60px;
+}
+
+.main_2 {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 40px 1.5fr 1fr 1fr 1.5fr 1fr 1fr;
+    padding: 14px 16px;
+    align-items: center;
+}
+
+.header {
+    background-color: #f8f9fb;
+    font-weight: 600;
+    color: #555;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+
+.creat {
+    border: none;
+    background-color: white;
+    border: 2px solid red;
+    border-radius: 8px 8px 8px 8px;
+    padding: 10px;
+    color: red;
+    font-weight: bold ;
+    cursor: pointer;
+    width: 220px;
+}
+
+.redactor {
+    border: none;
+    background-color: white;
+    border: 2px solid rgba(203, 203, 203, 0.591);
+    color:  rgba(203, 203, 203, 0.591);
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 8px 8px 8px 8px;
+    width: 180px;
+}
+
+.filter {
+    border: none;
+    background-color: white;
+    border: 2px solid rgba(203, 203, 203, 0.591);
+    color:  rgba(0, 0, 0, 0.591);
+    padding: 10px;
+    border-radius: 8px 8px 8px 8px;
+    cursor: pointer;
+    margin-left: 300px;
+    width: 150px;
+}
+
+.poisk{
+    border: none;
+    background-color: rgba(203, 203, 203, 0.591);
+    padding: 10px;
+    border-radius: 8px 8px 8px 8px;
+    width: 400px;
+}
+
+
+
+
+
+
+
